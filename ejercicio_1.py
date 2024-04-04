@@ -24,3 +24,7 @@ tiempo_vacio_youtube = 100 - curso_youtube *1000 // crudo_youtube / 10
 #mostrando la cantida de tiempo que se remueve 
 print(f"un curso promedio elimina un {tiempo_vacio_promedio}% de tiempo vacio")
 print(f"este curso elmino el {tiempo_vacio_youtube}% de tiempo vacio")
+
+
+#mostar diferencia si el curso durara 10 horas
+print(f"ver 10 horas de este curso equivale a ver {otros_cursos_promedio *100 // curso_youtube / 10} horas de otros cursos")
